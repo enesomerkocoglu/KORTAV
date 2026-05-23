@@ -1102,10 +1102,11 @@ img {
     gap: 12px;
   }
   .navbar__logo {
-    font-size: 18px;
+    padding-left: 0;
+    font-size: 24px; 
   }
   .navbar__search {
-    max-width: none;
+    width: 200px; 
     height: 36px;
     font-size: 13px;
   }
@@ -1126,8 +1127,8 @@ img {
     text-align: center;
     justify-content: center;
   }
-  .hero__title { font-size: 40px; }
-  .hero__subtitle { font-size: 14px; }
+  .hero__title { font-size: 60px; } 
+  .hero__subtitle { font-size: 21px; } 
   .hero__btn { width: 100%; max-width: 300px; }
 
   /* CATEGORY FILTER */
@@ -1194,7 +1195,13 @@ img {
     min-width: 0;
   }
   .footer__copyright {
-    font-size: 12px;
+    position: static;
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    width: 100%;
   }
 
   /* PRODUCT DETAIL */
@@ -1223,8 +1230,8 @@ img {
 @media (max-width: 480px) {
 
   /* NAVBAR */
-  .navbar__search { font-size: 12px; }
-  .navbar__logo { font-size: 16px; }
+  .navbar__logo { font-size: 22px; }
+  .navbar__search { width: 160px; }
 
   /* HERO */
   .hero {
@@ -1232,7 +1239,8 @@ img {
     min-height: 500px;
     padding: 0 16px;
   }
-  .hero__title { font-size: 32px; }
+  .hero__title { font-size: 48px; } 
+  .hero__subtitle { font-size: 21px; }
 
   /* PRODUCT GRID */
   .product-grid {
@@ -1259,7 +1267,15 @@ img {
   .footer__top {
     gap: 20px;
   }
-
+.footer__copyright {
+    position: static;
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    width: 100%;
+  }
   /* PRODUCT DETAIL */
   .product-detail__breadcrumb { padding: 12px 16px; }
   .product-detail__content { padding: 0 16px 32px 16px; }
