@@ -21,7 +21,7 @@
 
 | Ana Sayfa | Ürün Detay |
 |:---:|:---:|
-| ![Ana Sayfa](<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1a1e6edf-9fb4-4aad-b5bb-e69cbe7dafad" />) | ![Ürün Detay](https://github.com/user-attachments/assets/placeholder-detail) |
+| ![Ana Sayfa](<"https://github.com/user-attachments/assets/1a1e6edf-9fb4-4aad-b5bb-e69cbe7dafad"/>) | ![Ürün Detay](https://github.com/user-attachments/assets/placeholder-detail) |
 
 | Sepet | Mobil |
 |:---:|:---:|
