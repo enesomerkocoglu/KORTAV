@@ -410,15 +410,14 @@ img {
 =========================== */
 .footer {
   width: 100%;
-  min-height: 296px;
+  height: 296px;
   background-color: var(--bg-footer);
   border-top: 1px solid var(--border);
   padding: 48px 80px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  gap: 32px;
-  box-sizing: border-box;
+  align-items: flex-start;
+  position: relative;
 }
 
 .footer__top {
