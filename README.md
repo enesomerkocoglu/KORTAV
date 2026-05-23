@@ -36,7 +36,6 @@ Modern e-ticaret siteleri çoğu zaman karmaşık, yavaş ve görsel olarak buna
 | Toplam Ürün | **8** | Özenle seçilmiş teknoloji ürünleri |
 | Sayfa Sayısı | **2** | Ana Sayfa + Ürün Detay |
 | Mobil Uyum | **✅** | Tüm ekran boyutlarında tam uyumlu |
-| PageSpeed Skoru | **%84+** | Performans odaklı geliştirme |
 
 ---
 
@@ -116,9 +115,17 @@ App.jsx
 
 ## Performans & Kalite
 
+**Google PageSpeed Insights — Mobil & Masaüstü**
+
+| Metrik | Mobil | Masaüstü |
+|---|---|---|
+| Performans | ![82](https://img.shields.io/badge/82-success?style=flat-square) | ![99](https://img.shields.io/badge/99-success?style=flat-square) |
+| Erişilebilirlik | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| En İyi Uygulamalar | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+| SEO | ![100](https://img.shields.io/badge/100-success?style=flat-square) | ![100](https://img.shields.io/badge/100-success?style=flat-square) |
+
 | Metrik | Durum | Notlar |
 |---|---|---|
-| PageSpeed (Masaüstü) | ✅ 84+ | Performans optimizasyonları uygulandı |
 | Responsive | ✅ Tam Uyum | 4 breakpoint, mobil öncelikli |
 | Semantic HTML | ✅ | main, nav, footer, section etiketleri |
 | Erişilebilirlik | ✅ | aria-label, focus-visible, WCAG AA |
