@@ -43,7 +43,7 @@ function Navbar({ searchTerm, onSearchChange }) {
           onChange={e => onSearchChange(e.target.value)}
         />
       </div>
-      <button className="navbar__cart" onClick={() => setIsCartOpen(true)}>
+      <button className="navbar__cart" onClick={() => setIsCartOpen(true)} aria-label="Sepeti aç">
         <span className="navbar__cart-wrap">
           <svg className="navbar__cart-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M4 6h2l1.6 9.2a1.7 1.7 0 0 0 1.7 1.4h7.8a1.7 1.7 0 0 0 1.7-1.3L21 9H8.1" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -72,7 +72,7 @@ function HeroSection() {
       </div>
       <div className="hero__image-box">
         <div className="hero__image-box-inner">
-          <img src={heroProduct?.image ?? 'https://placehold.co/496x384'} alt={heroProduct?.name ?? 'Öne çıkan ürün'} loading="lazy" decoding="async" />
+          <img src={heroProduct?.image ?? 'https://placehold.co/496x384'} alt={heroProduct?.name ?? 'Öne çıkan ürün'} fetchpriority="high" decoding="async" />
         </div>
       </div>
     </section>
@@ -254,15 +254,17 @@ function HomePage() {
   })
 
   return (
-    <>
-      <Navbar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+  <>
+    <Navbar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+    <main>
       <HeroSection />
       <CategoryFilter activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
       <ProductGrid products={filtered} />
-      <Footer />
-      <CartSidebar />
-    </>
-  )
+    </main>
+    <Footer />
+    <CartSidebar />
+  </>
+)
 }
 
 function ProductDetail() {
@@ -278,10 +280,10 @@ function ProductDetail() {
   )
 
   return (
-    <>
-      <Navbar searchTerm="" onSearchChange={() => {}} />
-
-      <div className="product-detail">
+  <>
+    <Navbar searchTerm="" onSearchChange={() => {}} />
+    <main>
+    <div className="product-detail">
 
         <div className="product-detail__breadcrumb">
           <span onClick={() => navigate('/')} className="product-detail__breadcrumb-link">Ana Sayfa</span>
@@ -348,8 +350,8 @@ function ProductDetail() {
           </div>
         </div>
       </div>
-
-      <CartSidebar />
+    </main>
+    <CartSidebar />
       <Footer />
     </>
   )
