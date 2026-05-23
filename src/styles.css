@@ -445,6 +445,7 @@ img {
   font-weight: 700;
   color: var(--text-soft);
   letter-spacing: -0.01em;
+  text-decoration: none;
 }
 
 .footer__tagline {
