@@ -5,12 +5,10 @@ import { CartProvider } from './CartContext'
 import App from './App'
 import './styles.css'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </BrowserRouter>
-  </StrictMode>
-)
+import { HashRouter } from 'react-router-dom'
+
+<HashRouter>
+  <CartProvider>
+    <App />
+  </CartProvider>
+</HashRouter>

@@ -363,6 +363,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/product/:id" element={<ProductDetail />} />
+      <Route path="*" element={<HomePage />} />
     </Routes>
   )
 }
