@@ -19,13 +19,10 @@
 
 ## Ekran Görüntüleri
 
-| Ana Sayfa | Ürün Detay |
-|:---:|:---:|
-| ![Ana Sayfa](<"https://github.com/user-attachments/assets/1a1e6edf-9fb4-4aad-b5bb-e69cbe7dafad"/>) | ![Ürün Detay](https://github.com/user-attachments/assets/placeholder-detail) |
+<img src="https://github.com/user-attachments/assets/19ee1003-0295-43ec-aa24-763fedf97157" width="100%" />
+<img src="https://github.com/user-attachments/assets/281de70f-8383-4f26-aac0-f2f4361517a5" width="100%" />
+<img <img  src="https://github.com/user-attachments/assets/032007cd-732b-4523-b5a8-a0bbbeba4116" width="100%" />
 
-| Sepet | Mobil |
-|:---:|:---:|
-| ![Sepet](https://github.com/user-attachments/assets/placeholder-cart) | ![Mobil](https://github.com/user-attachments/assets/placeholder-mobile) |
 
 ---
 
