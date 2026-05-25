@@ -1127,8 +1127,8 @@ img {
     text-align: center;
     justify-content: center;
   }
-  .hero__title { font-size: 60px; } 
-  .hero__subtitle { font-size: 21px; } 
+  .hero__title { font-size: 55px; } 
+  .hero__subtitle { font-size: 11px; } 
   .hero__btn { width: 100%; max-width: 300px; }
 
   /* CATEGORY FILTER */
@@ -1239,8 +1239,8 @@ img {
     min-height: 500px;
     padding: 0 16px;
   }
-  .hero__title { font-size: 48px; } 
-  .hero__subtitle { font-size: 21px; }
+  .hero__title { font-size: 43px; } 
+  .hero__subtitle { font-size: 11px; }
 
   /* PRODUCT GRID */
   .product-grid {
