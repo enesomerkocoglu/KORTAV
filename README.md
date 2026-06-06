@@ -4,7 +4,7 @@
 
 ### Her Şey Bir Tıkla Uzağında
 
-[![Live Demo](https://img.shields.io/badge/%20Canlı%20Demo-KORTAV-C9A84C?style=for-the-badge)](https://enesomerkocoglu.github.io/KORTAV/#/)
+[![Live Demo](https://img.shields.io/badge/%20Canlı%20Demo-KORTAV-C9A84C?style=for-the-badge)]https://enesomerkocoglu.github.io/KORTAV/#/
 [![GitHub](https://img.shields.io/badge/Kaynak%20Kodu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/enesomerkocoglu/KORTAV)
 [![Status](https://img.shields.io/badge/Durum-Yayında-success?style=for-the-badge)]()
 
